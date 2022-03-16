@@ -23,6 +23,7 @@ public class Main {
                     count ++; 
                 }
             }
+            // System.out.printf("%.3f%%", (double)count/student*100);
             System.out.printf("%.3f", (double)count/student*100);
             System.out.println("%");
 
