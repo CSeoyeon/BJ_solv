@@ -8,7 +8,7 @@ public class Main {
         for(int i =0; i<n; i++){
             int num = scanner.nextInt();
             boolean check = true;
-            // 0, 1 은 소수가 아니다.  
+            // 0, 1 은 소수가 아님 
             if (num == 1 || num == 0){
                check = false; 
             } 
