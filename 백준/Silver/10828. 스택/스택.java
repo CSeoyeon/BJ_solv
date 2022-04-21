@@ -67,7 +67,8 @@ public class Main {
                     break;
 
             }
-           
+            //(의문점) 명령이 주어질 때마다 한 줄씩 출력된다면 이게 정답이 아닌가?.. 
+            //System.out.println(sb);
             //string builder 초기화
             //sb.setLength(0);
         }    
