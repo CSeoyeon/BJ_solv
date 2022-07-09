@@ -36,7 +36,7 @@ public class Main {
             break; 
             
         }
-        if(t%10 != 0 ){
+        else if(t%10 != 0 ){
             System.out.println(-1);
             break;
         }
