@@ -1,0 +1,37 @@
+import java.util.*;
+import java.io.*;
+
+
+public class Main
+{
+    public static void main(String args[])
+    {
+        int answer = 0; 
+        Scanner scanner = new Scanner(System.in);
+        for(int i =0; i<5; i++){
+           
+            String[] timeA = (scanner.next()).split(":");
+            String[] timeB = (scanner.next()).split(":");
+            
+            int hourA = Integer.parseInt(timeA[0]);
+            int hourB = Integer.parseInt(timeB[0]);
+            int minA = Integer.parseInt(timeA[1]);
+            int minB = Integer.parseInt(timeB[1]);
+
+            
+            if(minB >= minA) {
+                answer += (hourB - hourA)*60;
+                answer+= minB - minA;
+            }
+            else {
+                hourB = hourB - 1; 
+                answer += (hourB - hourA) * 60; 
+                answer += (60 - minA) +minB;
+                }
+
+
+        }
+
+        System.out.println(answer);
+    }
+}
