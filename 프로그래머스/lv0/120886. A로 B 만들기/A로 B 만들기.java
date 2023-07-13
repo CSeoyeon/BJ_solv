@@ -13,6 +13,18 @@ class Solution {
                 return 0;
             }
         }
+
+        // char[] beforeA = before.toCharArray();
+        // char[] afterA = after.toCharArray();
+        // Arrays.sort(beforeA);
+        // Arrays.sort(afterA);
+        
+        // String a = new String(beforeA);
+        // String b = new String(afterA);
+        // if(a.equals(b)){
+        //     return 1; 
+        // }
+        // else return 0;
         
         return answer;
     }
